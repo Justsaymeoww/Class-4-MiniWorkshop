@@ -48,18 +48,18 @@ origin  https://github.com/<github_username>/Class-4-MiniWorkshop.git (push)
 ```
 
 
-**3. สร้าง Branch แยกโดยตั้งชื่อตาม Format นี้**
+**4. สร้าง Branch แยกโดยตั้งชื่อตาม Format นี้**
 ```bash
 git branch <ชื่อเล่นภาษาอังกฤษของตัวเอง> 
 ```
-**4. เข้าไปใน Branch ที่เพิ่งสร้างมา**
+**5. เข้าไปใน Branch ที่เพิ่งสร้างมา**
 
-**5. สร้างไฟล์ <ชื่อเล่นภาษาอังกฤษของตัวเอง>.md**
+**6. สร้างไฟล์ <ชื่อเล่นภาษาอังกฤษของตัวเอง>.md**
 ```bash
 code .
 ```
 
-**6. คัดลอก Format ตามด้านล่างนี้ลงไปในไฟล์.md**
+**7. คัดลอก Format ตามด้านล่างนี้ลงไปในไฟล์.md**
 
 ```bash
 ## 💌 จดหมายถึงพี่ ๆ ในบ้าน Empire cache 💌
@@ -76,9 +76,9 @@ code .
 ---
 ```
 
-**7. แก้ไขตรงส่วนที่ให้เติมข้อความ**
+**8. แก้ไขตรงส่วนที่ให้เติมข้อความ**
 
-**8. ใช้ Git Workflow ตามปกติ**
+**9. ใช้ Git Workflow ตามปกติ**
 ```bash
 git add <name>.md
 git commit -m "Add <name>.md file"
@@ -88,7 +88,7 @@ git push -u origin <ชื่อbranch>
 
 ---
 
-**9. เปิด Pull Request**
+**10. เปิด Pull Request**
 
 เข้าไปที่ fork ของน้องบน GitHub: 
 https://github.com/<github_username>/Class-4-MiniWorkshop
