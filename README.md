@@ -101,7 +101,9 @@ base repository = Justsaymeoww/Class-4-MiniWorkshop,
 
 base branch = main 
 
-head repository = <github_username>/Class-4-MiniWorkshop, compare = <branch_name>
+head repository = <github_username>/Class-4-MiniWorkshop, 
+
+compare = <branch_name>
 
 
 ใส่หัวข้อ/รายละเอียดงานที่ทำ
