@@ -1,7 +1,7 @@
 # **Class 4 - Mini Workshop**
 ### ขั้นตอนการทำ Mini Workshop
 
-**1. Clone repository ลงในเครื่องตัวเอง**
+**1. Fork repository และ Clone ลงในเครื่องตัวเอง**
 
 **2. ใช้คำสั่งตามด้านล่างนี้**
 - เช็คว่าในเครื่องมีการ login github ค้างไว้ไหม
@@ -24,6 +24,30 @@ git config --local user.name "Full name"
 git config --local user.email "Your Email"
 ```
 ---
+
+**3. ตรวจสอบ/ตั้งค่า remote ในเครื่อง**
+
+เช็คก่อนว่าตอนนี้ remote origin ชี้ไปที่ไหน:
+```bash 
+git remote -v
+```
+ถ้าเห็นว่าชี้ไปที่ repo ของพี่ (Justsaymeoww/...) ให้เปลี่ยนเป็น fork ของตัวเอง :
+```bash 
+git remote set-url origin https://github.com/<github_username>/Class-4-MiniWorkshop.git
+```
+
+เช็คอีกครั้งให้แน่ใจ:
+```bash 
+git remote -v
+```
+ควรเห็น:
+```bash 
+origin  https://github.com/<github_username>/Class-4-MiniWorkshop.git (fetch)
+
+origin  https://github.com/<github_username>/Class-4-MiniWorkshop.git (push)
+```
+
+
 **3. สร้าง Branch แยกโดยตั้งชื่อตาม Format นี้**
 ```bash
 git branch <ชื่อเล่นภาษาอังกฤษของตัวเอง> 
@@ -62,8 +86,25 @@ git push -u origin <ชื่อbranch>
 ```
 *git push ใน branch ของตัวเองเท่านั้น ห้าม push ลง main
 
-**9. Create Pull Request** จาก Branch ตัวเองลงที่ main
+---
 
-**10. รอ Approve**
+**9. เปิด Pull Request**
 
-**11. Merge Pull Request**
+เข้าไปที่ fork ของน้องบน GitHub: 
+https://github.com/<github_username>/Class-4-MiniWorkshop
+
+**จะเห็นแถบสีเหลืองขึ้นมาว่า "<branch_name> had recent pushes" และกดปุ่ม Compare & pull request**
+
+**ตรวจสอบให้แน่ใจว่า:**
+
+base repository = Justsaymeoww/Class-4-MiniWorkshop, 
+
+base branch = main (หรือ branch หลักที่เพื่อนใช้)
+
+head repository = <github_username>/Class-4-MiniWorkshop, compare = <branch_name>
+
+
+ใส่หัวข้อ/รายละเอียดงานที่ทำ
+เช่น Title : Letter From Nong
+
+กด Create pull request
