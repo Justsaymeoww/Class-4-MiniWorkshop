@@ -99,7 +99,7 @@ https://github.com/<github_username>/Class-4-MiniWorkshop
 
 base repository = Justsaymeoww/Class-4-MiniWorkshop, 
 
-base branch = main (หรือ branch หลักที่เพื่อนใช้)
+base branch = main 
 
 head repository = <github_username>/Class-4-MiniWorkshop, compare = <branch_name>
 
