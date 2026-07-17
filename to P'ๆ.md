@@ -3,7 +3,7 @@
 > Everyone was very kind and a great teacher. I understand how stressful it is to teach so many people , Continue doing activitys like this.
 
 
-## 🧑💻 จากน้อง<Nammon>
+## 💻 จากน้อง Nammon
 
 - **ถึงพี่บ้าน Empire cache:**
   > _Thank you for teaching I need to written down to understand. If I'm slow. I'm sorry I'll do my best to understand._
